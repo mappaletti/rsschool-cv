@@ -25,3 +25,7 @@ public static class Kata {
   }
 }
 ```
+
+### Languages
+- **Russian** - native
+- **English** - A2
