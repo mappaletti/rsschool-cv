@@ -1,0 +1,115 @@
+:root {
+    --background-color: #d2e0f5;
+    --major-color: #2d3155;
+    --minor-color: #7a91b4;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--major-color)
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.container {
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.my-header {
+    background-color: var(--major-color);
+    color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 160px;
+}
+
+.header-name {
+    display: flex;
+}
+
+#avatar {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+#rsschoollogo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+
+.header-navi ul {
+    font-size: 18px;
+    display: flex;
+    margin-left: 100px;
+    list-style: none;
+
+}
+
+.header-navi a {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+    color: var(--background-color);
+
+}
+
+.my-main {
+    padding: 40px 160px;
+}
+
+.braindead {
+    color: var(--major-color)
+}
+
+.brainrot {
+    color: var(--minor-color)
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--major-color);
+    font-size: 16px;
+    margin: 0px;
+    font-family: Verdana;
+    /* may be : Segoe UI, -apple-system, Helvetica Neue,  Tahoma, Verdana */
+    line-height: 1.75em;
+}
+
+.my-footer {
+    background-color: var(--major-color);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 160px;
+}
+
+.my-footer a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #000
+}
